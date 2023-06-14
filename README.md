@@ -5,3 +5,5 @@
 *XAMPP Control Panel 프로그램
 
 다운로드 완료되면 apache - start
+
+#크롬창열고 localhost/폴더명/파일명.php 
