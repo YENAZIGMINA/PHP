@@ -1,4 +1,4 @@
-# PHP 다운로드 (zampp 사이트)
+# 🎀 PHP 다운로드 (zampp 사이트)
 
 ![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/a83db6d2-73b9-44e0-9bbf-7be1ce230d16)
 
@@ -8,8 +8,9 @@
 
 #크롬창열고 localhost/폴더명/파일명.php 
 
+--------------------------------------------------------------------------
 
-#파일질라 배포 
+# 🎀 파일질라 배포 
     vscode에서 F1누르고 ftp 연결후 - yenazigmina - .current 연결
     F1누르고 remote 연결?
 
@@ -21,3 +22,7 @@
        <?php
        include "header.phhp";
        ?>
+     * About.php에 잘라낸 코드 병합한다 (아래 이미지 참고)
+
+![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/f3236890-0b1e-4601-80e7-6e94f20581fa)
+
