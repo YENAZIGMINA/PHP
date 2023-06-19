@@ -3,10 +3,19 @@
 $id = $_REQUEST["id"]; //["input의 name"]
 //REQUEST : mthod - GET, POST 모두 받을 수 있음
 $name = $_REQUEST["name"];
+$passwd=$_REQUEST["passwd"];
+$passwd_confirm=$_REQUEST["passwd_confirm"];
+$birth_year=$_REQUEST['birth_year'];
+$birth_month=$_REQUEST['birth_month'];
+$birth_day=$_REQUEST['birth_day'];
 
-echo $id;
-echo $name;
-
+echo "$id<br>";
+echo "$name<br>";
+echo "$passwd<br>";
+echo "$passwd_confirm<br>";
+echo "$birth_year<br>";
+echo "$birth_month<br>";
+echo "$birth_day<br>;"
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +45,18 @@ echo $name;
         <tr>
             <td>* 이름 :</td>
             <td><?= $name; ?></td>
+        </tr>
+        <tr>
+            <td>* 비밀번호 :</td>
+            <td><?= $passwd; ?></td>
+        </tr>
+        <tr>
+            <td>* 비밀번호 확인 :</td>
+            <td><?= $passwd_confirm; ?></td>
+        </tr>
+        <tr>
+            <td>* 생년월일 :</td>
+            <td><?=$birth_year?>년 <?=$birth_month?>월 <?=$birth_day?>일</td>
         </tr>
     </table>
 </body>
