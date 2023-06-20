@@ -70,6 +70,41 @@
                 </td>
             </tr>
             <tr>
+                <td>* 휴대전화</td>
+                <td>
+                    <select name="phone1">
+                        <option>선택</option>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="017">017</option>
+                    </select> -
+                    <input type="text" size="4" name="phone2">-
+                    <input type="text" size="4" name="phone3">
+                </td>
+            </tr>
+            <tr>
+                <td>* 성별</td>
+                <td>
+                    <input type="radio" name="gender" value="M" checked>남
+                    <input type="radio" name="gender" value="F" >여
+                </td>
+            </tr>
+            <tr>
+                <td>* 주소</td>
+                <td>
+                    <input type="text" name="address" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>* 취미</td>
+                <td>
+                    <input type="checkbox" name="movie" vlaue="yes" checked>영화감상<br>
+                    <input type="checkbox" name="book" vlaue="yes">독서<br>
+                    <input type="checkbox" name="shopping" vlaue="yes">쇼핑<br>
+                    <input type="checkbox" name="sports" vlaue="yes">운동<br>
+                </td>
+            </tr>
+            <tr>
                 <td><input type="submit" value="확인"></td>
             </tr>
         </table>
