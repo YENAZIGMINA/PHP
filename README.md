@@ -31,3 +31,7 @@
 http://localhost/phpmyadmin/
 
 ![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/51cd9d40-4071-4db0-87ea-37d53b6f72f7)
+
+
+# 파일질라 주소 작성
+![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/051f23ca-a6b5-4744-b1d4-3bcf1596294b)
