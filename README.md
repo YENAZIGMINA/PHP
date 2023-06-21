@@ -26,3 +26,8 @@
 
 ![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/f3236890-0b1e-4601-80e7-6e94f20581fa)
 
+
+# 🎀 PHP 어드민 사이트
+http://localhost/phpmyadmin/
+
+![image](https://github.com/YENAZIGMINA/PHP/assets/129706758/51cd9d40-4071-4db0-87ea-37d53b6f72f7)
