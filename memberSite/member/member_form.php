@@ -148,7 +148,7 @@
                                 </li>
                                 <li>
                                     <input type="text" id="email1" name="email1"> @ 
-                                    <input type="text" id="email1" name="email2">
+                                    <input type="text" id="email2" name="email2">
                                 </li>
                             </ul>
                         </div> <!-- /join2 -->
