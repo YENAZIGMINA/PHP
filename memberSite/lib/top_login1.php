@@ -16,7 +16,8 @@
     <?php
     }else{
     ?>
-    <a href="./login/logout_form.php">로그아웃</a> | <a href="./login/member_form_modify.php">정보수정</a>
+    <?= $_SESSION['usernick'] ?><em>님 환영합니다🥰</em>(level:<?= $_SESSION['userlevel']?>)
+    <a href="./login/logout.php">로그아웃</a> | <a href="./login/member_form_modify.php">정보수정</a>
     <?php
     }
     
