@@ -39,7 +39,8 @@ if($exist_id){
         </script>
         ";
     }else{
-        echo "데이터베이스 입력에 실패하였습니다.".mysqli_error($connect);
+        echo "데이터베이스 입력에 실패하였습니다."
+        .mysqli_error($connect);
     }
 }
 

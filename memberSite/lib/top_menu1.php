@@ -1,5 +1,5 @@
 <div class="menus">
-    <a href="#">
+    <a href="./memo/memo.php">
         <img src="./img/menu05.gif">
     </a>
 </div>

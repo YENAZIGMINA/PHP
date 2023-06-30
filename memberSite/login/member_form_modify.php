@@ -15,19 +15,14 @@ session_start();
     <script>
         //id 중복확인
         function check_id(){
-            window.open("check_id.php?id="+document.member_form.id.value, "IDCheck", "top=200,left=200,width=200,height=100");
+            window.open("../member/check_id.php?id="+document.member_form.id.value, "IDCheck", "top=200,left=200,width=200,height=100");
         }
         //닉네임 중복확인
         function check_nick(){
-            window.open("check_nick.php?nick="+document.member_form.nick.value, "NICKCheck", "top=200,left=200,width=200,height=100");
+            window.open("../member/check_nick.php?nick="+document.member_form.nick.value, "NICKCheck", "top=200,left=200,width=300,height=150");
         }
         //저장하기
         function check_input(){
-            if(!document.member_form.id.value){
-                alert("❗ 아이디를 입력하세요")
-                document.member_form.id.focus(); //focus 아이디 칸으로 이동함
-                return;
-            }
             if(!document.member_form.pass.value){
                 alert("💢 비밀번호를 입력하세요")
                 document.member_form.pass.focus();
